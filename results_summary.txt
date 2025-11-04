@@ -1,0 +1,13 @@
+VISION TRANSFORMER RESULTS SUMMARY
+===================================
+Roll Number: 14
+Final Test Accuracy: 45.45%
+Final Training Accuracy: 44.79%
+Final Validation Accuracy: 45.45%
+Training Time: 35.70 minutes
+Model Parameters: 4,854,026
+Best Epoch: 13
+Hidden Dimension: 256
+Number of Heads: 8
+Patch Size: 12
+Training Epochs: 14
