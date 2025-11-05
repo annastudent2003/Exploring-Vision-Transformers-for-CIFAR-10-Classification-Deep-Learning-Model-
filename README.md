@@ -39,7 +39,17 @@ python main.py
 - **Best Validation Accuracy:** 45.59%
 
 ### Generated Outputs
-**sample_images.png -** Sample CIFAR-10 images
-**training_results.png -** Training curves & confusion matrix
-**results_summary.txt -** Complete performance metrics
-**vit_cifar10_model.pth -** Trained model weights
+- **sample_images.png -** Sample CIFAR-10 images
+- **training_results.png -** Training curves & confusion matrix
+- **results_summary.txt -** Complete performance metrics
+- **vit_cifar10_model.pth -** Trained model weights
+
+
+## Package Installation Errors
+```bash
+# Use virtual environment
+python -m venv vit_env
+source vit_env/bin/activate  # Linux/Mac
+vit_env\Scripts\activate    # Windows
+pip install -r requirements.txt
+```
