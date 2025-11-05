@@ -21,7 +21,25 @@ git clone https://github.com/your-username/vit-cifar10.git
 cd vit-cifar10
 ```
 
-# Install dependencies
+## Install dependencies
 ```bash
 pip install torch torchvision matplotlib numpy tqdm seaborn scikit-learn Pillow
 ```
+
+## Run the Project
+```bash
+python main.py
+```
+
+## 📊 Results
+### Performance Metrics
+**Final Test Accuracy:** 45.45%
+**Training Time:** 53.50 minutes
+**Model Parameters:** 4,854,026
+**Best Validation Accuracy:** 45.59%
+
+### Generated Outputs
+**sample_images.png -** Sample CIFAR-10 images
+**training_results.png -** Training curves & confusion matrix
+**results_summary.txt -** Complete performance metrics
+**vit_cifar10_model.pth -** Trained model weights
