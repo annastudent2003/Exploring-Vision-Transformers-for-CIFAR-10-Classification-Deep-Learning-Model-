@@ -11,3 +11,17 @@ A complete implementation of Vision Transformer (ViT) for image classification o
 - **Model**: Custom Vision Transformer built from scratch
 - **Features**: Manual patch embedding, multi-head attention, transformer blocks
 
+
+## 🚀 Quick Start
+
+### Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/vit-cifar10.git
+cd vit-cifar10
+```
+
+# Install dependencies
+```bash
+pip install torch torchvision matplotlib numpy tqdm seaborn scikit-learn Pillow
+```
