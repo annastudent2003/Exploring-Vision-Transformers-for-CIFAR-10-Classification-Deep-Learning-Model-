@@ -33,10 +33,10 @@ python main.py
 
 ## 📊 Results
 ### Performance Metrics
-**Final Test Accuracy:** 45.45%
-**Training Time:** 53.50 minutes
-**Model Parameters:** 4,854,026
-**Best Validation Accuracy:** 45.59%
+- **Final Test Accuracy:** 45.45%
+- **Training Time:** 53.50 minutes
+- **Model Parameters:** 4,854,026
+- **Best Validation Accuracy:** 45.59%
 
 ### Generated Outputs
 **sample_images.png -** Sample CIFAR-10 images
