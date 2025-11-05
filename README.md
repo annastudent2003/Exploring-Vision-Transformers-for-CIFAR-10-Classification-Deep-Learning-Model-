@@ -87,6 +87,6 @@ pip install -r requirements.txt
 This project is created for educational purposes as part of academic assignment.
 
 ## 👨‍💻 Author
-Name: [Ananya Saikia]
+**Name:** Ananya Saikia
 
-Course: Deep Learning 
+**Course:** Deep Learning 
