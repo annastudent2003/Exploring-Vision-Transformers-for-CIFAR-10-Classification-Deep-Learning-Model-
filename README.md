@@ -53,3 +53,40 @@ source vit_env/bin/activate  # Linux/Mac
 vit_env\Scripts\activate    # Windows
 pip install -r requirements.txt
 ```
+
+
+## 🏗️ Model Architecture
+### Vision Transformer Components
+- **Patch Embedding:** Convert 32x32 images to 12x12 patches (49 patches total)
+- **Positional Encoding:** Learnable positional embeddings
+- **Transformer Encoder:** 6 layers with multi-head self-attention
+- **Classification Head:** Linear layer for 10-class prediction
+
+### Technical Specifications
+- **Hidden Dimension:** 256
+- **Number of Heads:** 6
+- **Patch Size:** 12×12
+- **Transformer Layers:** 6
+- **Parameters:** 4.85 million
+
+## ⚙️ Training Configuration
+### Hyperparameters
+- **Optimizer:** AdamW (lr=0.001, weight_decay=0.03)
+- **Loss Function:** Cross Entropy
+- **Batch Size:** 128
+- **Epochs:** 14
+- **Scheduler:** Cosine Annealing
+
+### Dataset
+- **CIFAR-10:** Automatically downloaded via PyTorch
+- **Classes:** 10 (airplane, automobile, bird, cat, deer, dog, frog, horse, ship, truck)
+- **Image Size:** 32×32 pixels
+
+
+## 📄 License
+This project is created for educational purposes as part of academic assignment.
+
+## 👨‍💻 Author
+Name: [Ananya Saikia]
+
+Course: Deep Learning 
